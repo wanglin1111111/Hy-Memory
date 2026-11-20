@@ -21,6 +21,8 @@
 
 [English](README.md) | 中文
 
+> **本 fork 说明**：官方发行矩阵不含 Windows，本 fork 记录了源码版在 Windows 落地的完整实录（LOCAL PATCH 清单、云端 LLM 适配、全链路验收），见 **[FORK-NOTES.md](FORK-NOTES.md)**。
+
 **[Hy Memory](https://memory.hunyuan.tencent.com/)**（官网：[memory.hunyuan.tencent.com](https://memory.hunyuan.tencent.com/)）是面向自演化 LLM Agent 的工业级双系统认知记忆引擎与 Python SDK（`hy-memory`），针对三类任务场景提供专用记忆链路：面向日常对话的 **Chat** 多层认知记忆、面向生产力任务的 **Working**“会话事实 + 可复用经验”双层记忆，以及面向软件工程的 **Coding** 双层记忆与代码版本演进链（diff 链）。基于 Hy Memory 构建的 **[MemHub](memhub/README.md)** 是本地优先的桌面端与 CLI 产品，可将用户授权的多个 AI 应用（如 Claude Code、Cursor、Codex、OpenCode、Qwen Code 等）的历史对话与操作轨迹汇入统一的本地受管 Runtime 与数据目录，并向授权宿主提供受治理的跨应用记忆召回。
 
 <div align="center">
